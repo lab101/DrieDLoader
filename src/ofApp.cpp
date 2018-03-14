@@ -13,13 +13,11 @@ void ofApp::setup(){
     
     fboSize = 550;
 
-<<<<<<< HEAD
     models.push_back(new ModelDmitriy());
     models.back()->setup("model-dmitriy.obj", fboSize, fboSize);
-=======
-    models.push_back(new ModelKris());
-    models.back()->setup("model-dimitri.obj", fboSize, fboSize);
->>>>>>> 6b3c85f99fb3ba1748817e267e9431eaa91a7176
+
+//    models.push_back(new Model());
+//    models.back()->setup("model.obj", fboSize, fboSize);
 
 }
 
