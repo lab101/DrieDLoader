@@ -1,7 +1,11 @@
 #include "ofApp.h"
 
 #include "Model.h"
-//#include "Model2.h"
+
+
+#include "ModelKris.h"
+
+
 //#include "Model3.h"
 
 //--------------------------------------------------------------
@@ -9,7 +13,7 @@ void ofApp::setup(){
     
     fboSize = 550;
 
-    models.push_back(new Model());
+    models.push_back(new ModelKris());
     models.back()->setup("model-kris.obj", fboSize, fboSize);
 
 }
