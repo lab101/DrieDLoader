@@ -16,8 +16,8 @@ void ofApp::setup(){
     models.push_back(new ModelDmitriy());
     models.back()->setup("model-dmitriy.obj", fboSize, fboSize);
 
-//    models.push_back(new Model());
-//    models.back()->setup("model.obj", fboSize, fboSize);
+    models.push_back(new Model());
+    models.back()->setup("model-bjarni.obj", fboSize, fboSize);
 
 }
 
@@ -31,9 +31,18 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+    
+    ofVec2f offset;
     for(IModel* m : models){
-        m->drawFbo(0, 0);
+        m->drawFbo(offset.x,offset.y);
+        
+        offset.x += fboSize +2;
+        if(offset.x > ofGetWidth() - fboSize){
+            offset.y += fboSize + 2;
+        }
     }
+    
+    
 }
 
 //--------------------------------------------------------------
