@@ -15,6 +15,7 @@
 *.cpp.hex
 
 *.db
+*.opendb
 
 **/bin/*.dll
 **/bin/*.exe
