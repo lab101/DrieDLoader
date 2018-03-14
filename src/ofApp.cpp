@@ -3,7 +3,7 @@
 #include "Model.h"
 
 
-#include "ModelKris.h"
+#include "ModelDmitriy.h"
 
 
 //#include "Model3.h"
@@ -13,8 +13,8 @@ void ofApp::setup(){
     
     fboSize = 550;
 
-    models.push_back(new ModelKris());
-    models.back()->setup("model-kris.obj", fboSize, fboSize);
+    models.push_back(new ModelDmitriy());
+    models.back()->setup("model-dmitriy.obj", fboSize, fboSize);
 
 }
 
