@@ -4,12 +4,10 @@
 #include "ofxAssimpModelLoader.h"
 #include "IModel.h"
 
-class ModelBram : public IModel {
+class ModelMarkian : public IModel {
 
 	ofxAssimpModelLoader modelLoader;
 	ofMesh faceMesh;
-	ofMesh faceMesh1;
-	ofMesh faceMesh2;
 
 	// original loaded mesh in a vbo
 	ofVboMesh vboMesh;
@@ -31,4 +29,3 @@ public:
 
 
 };
-#pragma once
