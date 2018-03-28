@@ -13,6 +13,8 @@
 		50D3B05F20593B5C00F36A23 /* ModelDmitriy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50D3B05E20593B5C00F36A23 /* ModelDmitriy.cpp */; };
 		8DED5056525646FA71980866 /* ofxAssimpModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE55D82BD962DAC0E94B708 /* ofxAssimpModelLoader.cpp */; };
 		9F738A7F206B810200BF3668 /* ModelJalle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F738A7E206B810100BF3668 /* ModelJalle.cpp */; };
+		9F738A86206B88AA00BF3668 /* ModelMarkian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F738A84206B88AA00BF3668 /* ModelMarkian.cpp */; };
+		9F738A87206B88AA00BF3668 /* ModelSandie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F738A85206B88AA00BF3668 /* ModelSandie.cpp */; };
 		9F8C54FD206B7F9B00EC23E8 /* ModelLennert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C54FC206B7F9B00EC23E8 /* ModelLennert.cpp */; };
 		B8846EF8E504895A4A9EFEC0 /* ofxAssimpTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F2EE44AD04FF549AB13699 /* ofxAssimpTexture.cpp */; };
 		DEF247E0206B85940045CAAA /* ModelSandy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF247DE206B85940045CAAA /* ModelSandy.cpp */; };
@@ -89,6 +91,10 @@
 		98033501202172DF458BD6CF /* vector2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vector2.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/vector2.h; sourceTree = SOURCE_ROOT; };
 		9F738A7D206B810100BF3668 /* ModelJalle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelJalle.h; path = src/Models/ModelJalle.h; sourceTree = SOURCE_ROOT; };
 		9F738A7E206B810100BF3668 /* ModelJalle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelJalle.cpp; path = src/Models/ModelJalle.cpp; sourceTree = SOURCE_ROOT; };
+		9F738A82206B88AA00BF3668 /* ModelMarkian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelMarkian.h; path = src/Models/ModelMarkian.h; sourceTree = SOURCE_ROOT; };
+		9F738A83206B88AA00BF3668 /* ModelSandie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelSandie.h; path = src/Models/ModelSandie.h; sourceTree = SOURCE_ROOT; };
+		9F738A84206B88AA00BF3668 /* ModelMarkian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelMarkian.cpp; path = src/Models/ModelMarkian.cpp; sourceTree = SOURCE_ROOT; };
+		9F738A85206B88AA00BF3668 /* ModelSandie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelSandie.cpp; path = src/Models/ModelSandie.cpp; sourceTree = SOURCE_ROOT; };
 		9F8C54FB206B7F9B00EC23E8 /* ModelLennert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelLennert.h; path = src/Models/ModelLennert.h; sourceTree = SOURCE_ROOT; };
 		9F8C54FC206B7F9B00EC23E8 /* ModelLennert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelLennert.cpp; path = src/Models/ModelLennert.cpp; sourceTree = SOURCE_ROOT; };
 		9FECF0FCF0CCAEC9C58FE54F /* version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = version.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/version.h; sourceTree = SOURCE_ROOT; };
@@ -153,6 +159,7 @@
 		50D3B04E2058FCF200F36A23 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				DEF247E8206B89540045CAAA /* ModelBram.cpp */,
 				DEF247EA206B89550045CAAA /* ModelBram.h */,
 				DEF247E9206B89550045CAAA /* ModelMarkian.cpp */,
@@ -161,6 +168,12 @@
 				DEF247E7206B89540045CAAA /* ModelSandie.h */,
 				DEF247E3206B88BF0045CAAA /* ModelBjarni.cpp */,
 				DEF247E2206B88BF0045CAAA /* ModelBjarni.h */,
+=======
+				9F738A84206B88AA00BF3668 /* ModelMarkian.cpp */,
+				9F738A82206B88AA00BF3668 /* ModelMarkian.h */,
+				9F738A85206B88AA00BF3668 /* ModelSandie.cpp */,
+				9F738A83206B88AA00BF3668 /* ModelSandie.h */,
+>>>>>>> 3e015d45620e7409130b029b1028f0a05fbcdfe3
 				9F738A7E206B810100BF3668 /* ModelJalle.cpp */,
 				9F738A7D206B810100BF3668 /* ModelJalle.h */,
 				9F8C54FC206B7F9B00EC23E8 /* ModelLennert.cpp */,
@@ -410,6 +423,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F738A86206B88AA00BF3668 /* ModelMarkian.cpp in Sources */,
+				9F738A87206B88AA00BF3668 /* ModelSandie.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				DEF247ED206B89550045CAAA /* ModelMarkian.cpp in Sources */,
