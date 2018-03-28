@@ -114,7 +114,7 @@ void ModelLennert::update(float speed) {
 
 void ModelLennert::draw() {
     float hueStart = fmod(ofGetElapsedTimef() * 10, 255);
-    ofClear(ofColor::fromHsb(360, 220, 220));
+    ofClear(ofColor::fromHsb(hueStart, 70, 255));
     
 
     camera.begin();
@@ -125,7 +125,7 @@ void ModelLennert::draw() {
     ofPushMatrix();
     
     
-    ofRotateY(ofGetElapsedTimef() * 15);
+    ofRotateY(ofGetElapsedTimef() * 10);
     ofRotateX(-120);
     
     // draw mesh with lighting
@@ -140,11 +140,12 @@ void ModelLennert::draw() {
     
     for (ofVec3f& v : vboMesh.getVertices()) {
         
-        
-        float x = sin((ofGetElapsedTimef())/0.5)+v.x;
-        float radius = ofMap(x, -1, 1, 0.02, 0.2);
+       
+        float x = sin((ofGetElapsedTimef())/2)+v.x;
+        float radius = ofMap(x, -1, 1, 0.02, 0.3);
         radius += ofRandom(0.03);
-        ofDrawSphere ((v*30)+ofNoise(v.x),radius);
+        float xPosWaRandomMaken = ofMap(radius, 0.02, 0.3, 0.3, 0.02);
+        ofDrawSphere ((v*30)+ofRandom(xPosWaRandomMaken),radius);
         
     }
     

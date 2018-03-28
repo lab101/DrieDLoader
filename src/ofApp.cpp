@@ -14,7 +14,9 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
- fboSize = 250;
+  
+    fboSize = 250;
+
     models.push_back(new ModelLennert());
     models.back()->setup("model-lennert.obj", fboSize, fboSize);
     models.push_back(new ModelJalle());
