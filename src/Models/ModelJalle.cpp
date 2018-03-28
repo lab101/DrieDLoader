@@ -16,6 +16,7 @@ void ModelJalle::setup(string path, float fboWidth, float fboHeight) {
 
     
     // recreating the mesh.
+	/*
 	for (ofVec3f& v : vertices) {
 		faceMesh.addVertex(v * 10);
 	}
@@ -27,6 +28,7 @@ void ModelJalle::setup(string path, float fboWidth, float fboHeight) {
 	for (ofVec3f normal : normals) {
 		faceMesh.addNormal(normal);
 	}
+	*/
     
     
     // setup the camera
@@ -36,6 +38,8 @@ void ModelJalle::setup(string path, float fboWidth, float fboHeight) {
 	light1.setPosition(0, 5, 5);
     
     fbo.allocate(fboWidth, fboHeight);
+
+
     
 }
 
@@ -44,16 +48,6 @@ void ModelJalle::update(float speed) {
 
 
     faceMesh.clearColors();
-    /*
-    // adjust the colors
-    float hueStart = fmod(ofGetElapsedTimef() * 10, 255);
-    for(ofVec3f& v : vboMesh.getVertices()){
-        float h = ofMap(v.x, -0.1, 0.1, hueStart, hueStart +10, true);
-        float s = ofMap(v.y, -0.1, 0.1, 255, 100, true);
-
-        faceMesh.addColor(ofColor::fromHsb(h, s, 255));
-    }
-    */
     // clearint the vertices and adding new ones with some noise
 	/*
 
@@ -74,6 +68,7 @@ void ModelJalle::update(float speed) {
 	    }
     */
   
+	light1.setAmbientColor(ofColor::fromHex(0xa50000,1));
 
 
 
@@ -94,8 +89,11 @@ void ModelJalle::draw() {
 	ofPushMatrix();
 
 
-        //(ofGetElapsedTimef() * 10);
-		ofRotateY(90);
+        //ofRotateY((ofGetElapsedTimef() * 10));
+		//ofRotateY(90);
+		//ofRotateY(sin(ofGetElapsedTimef()));
+		ofRotateY(90 + sin(ofGetElapsedTimef() * 5) * 18);
+		ofRotateZ(sin(ofGetElapsedTimef() * 10) * 8);
         ofRotateX(-90);
         ofScale(1.5, 1.5, 1.5);
 
@@ -104,9 +102,8 @@ void ModelJalle::draw() {
 
 
 		for (ofVec3f& v : vboMesh.getVertices()) {
-			//ofDrawBox(v * 12, ofNoise(ofGetElapsedTimef() * 0.8, v.z) * 0.5);
-			//ofDrawSphere(v * 12, ofNoise(ofGetElapsedTimef() * 0.8, v.z) * 0.5);
-			ofDrawCylinder(v * 12, ofNoise(ofGetElapsedTimef() * 0.8, v.z) * 0.5, ofNoise(ofGetElapsedTimef() * 0.3, v.y) * 0.8);
+			//ofDrawCylinder(v * 12, ofNoise(ofGetElapsedTimef() * 0.4, v.z) * 0.5, ofNoise(ofGetElapsedTimef() * 0.3, v.y) * 0.8);
+			ofDrawCylinder(v * 12, ofNoise(ofGetElapsedTimef() * 0.4, v.z) * 0.5, ofNoise(ofGetElapsedTimef() * 0.4, v.y) * 0.8);
 
 		}
         //faceMesh.drawFaces();
