@@ -1,11 +1,11 @@
 #include "ofApp.h"
 
-#include "Model.h"
+//#include "Model.h"
 
 #include "ModelDmitriy.h"
 #include "ModelLennert.h"
 #include "ModelJalle.h"
-#include "ModelSandy.hpp"
+#include "ModelSandy.h"
 #include "ModelSandie.h"
 #include "ModelMarkian.h"
 #include "ModelBjarni.h"
@@ -28,17 +28,12 @@ void ofApp::setup(){
     models.back()->setup("model-dmitriy.obj", fboSize, fboSize);
     models.push_back(new ModelBjarni());
     models.back()->setup("model-bjarni.obj", fboSize, fboSize);
-<<<<<<< HEAD
-    models.push_back(new Model());
-    models.back()->setup("model-lennert.obj", fboSize, fboSize);
     models.push_back(new ModelSandy());
     models.back()->setup("model-sandy.obj", fboSize, fboSize);
-=======
->>>>>>> 3e015d45620e7409130b029b1028f0a05fbcdfe3
-	models.push_back(new ModelSandie());
-	models.back()->setup("model-sandie.obj", fboSize, fboSize);
-	models.push_back(new ModelMarkian());
-	models.back()->setup("model-Markian.obj", fboSize, fboSize);
+    models.push_back(new ModelSandie());
+    models.back()->setup("model-sandie.obj", fboSize, fboSize);
+    models.push_back(new ModelMarkian());
+    models.back()->setup("model-Markian.obj", fboSize, fboSize);
 
 
 }
