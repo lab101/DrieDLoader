@@ -1,9 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\main.cpp">
       <Filter>external</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.cpp">
+      <Filter>external</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.cpp">
+      <Filter>external</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.cpp">
+      <Filter>external</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.cpp">
+      <Filter>external</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\Models\Model.cpp">
       <Filter>src\models</Filter>
@@ -20,24 +34,14 @@
     <ClCompile Include="src\Models\ModelLennert.cpp">
       <Filter>src\models</Filter>
     </ClCompile>
+    <ClCompile Include="src\Models\ModelMarkian.cpp">
+      <Filter>src\models</Filter>
+    </ClCompile>
     <ClCompile Include="src\Models\ModelSandie.cpp">
       <Filter>src\models</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.cpp">
-      <Filter>external</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.cpp">
-      <Filter>external</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.cpp">
-      <Filter>external</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.cpp">
-      <Filter>external</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\ai_assert.h">
       <Filter>external</Filter>
     </ClInclude>
@@ -107,27 +111,6 @@
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\metadata.h">
       <Filter>external</Filter>
     </ClInclude>
-    <ClInclude Include="src\IModel.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\Model.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelBjarni.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelDmitriy.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelJalle.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelLennert.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelSandie.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\NullLogger.hpp">
       <Filter>external</Filter>
     </ClInclude>
@@ -182,19 +165,48 @@
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\version.h">
       <Filter>external</Filter>
     </ClInclude>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IModel.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\Model.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelBjarni.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelDmitriy.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelJalle.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelLennert.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelMarkian.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelSandie.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="icon.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="external">
-      <UniqueIdentifier>{0a808797-fad6-4680-8db1-ea632d26f8db}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{ae11bce2-d9ce-4ed6-a1ff-d9b17ed0e8e4}</UniqueIdentifier>
+      <UniqueIdentifier>{e709c62a-5c88-4ed9-90e3-a33448f5c7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{d69e1cc1-4045-4059-bbde-69dad871c530}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\models">
-      <UniqueIdentifier>{6d97d9c0-0ca2-47fa-b92a-56271875a929}</UniqueIdentifier>
+      <UniqueIdentifier>{c367b35c-2d59-4664-90e7-4011c8e5f008}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc">
+      <Filter>external</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
