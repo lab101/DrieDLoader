@@ -95,8 +95,6 @@ void ModelMarkian::draw() {
 
 
 
-	light1.disable();
-	light2.disable();
 
 
 
