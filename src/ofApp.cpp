@@ -48,6 +48,7 @@ void ofApp::draw(){
         offset.x += fboSize +2;
         if(offset.x > ofGetWidth() - fboSize){
             offset.y += fboSize + 2;
+            offset.x = 0;
         }
     }
     
