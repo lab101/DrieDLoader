@@ -4,6 +4,7 @@
 
 
 #include "ModelDmitriy.h"
+#include "ModelLennert.h"
 
 
 //#include "Model3.h"
@@ -18,6 +19,8 @@ void ofApp::setup(){
 
     models.push_back(new Model());
     models.back()->setup("model-bjarni.obj", fboSize, fboSize);
+    models.push_back(new Model());
+    models.back()->setup("model-lennert.obj", fboSize, fboSize);
 
 }
 
