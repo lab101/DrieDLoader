@@ -5,6 +5,8 @@
 
 #include "ModelKris.h"
 
+#include "ModelJalle.h"
+
 
 //#include "Model3.h"
 
@@ -13,15 +15,15 @@ void ofApp::setup(){
     
     fboSize = 550;
 
-    models.push_back(new ModelKris());
-    models.back()->setup("model-dimitri.obj", fboSize, fboSize);
+    models.push_back(new ModelJalle());
+    models.back()->setup("model-jalle.obj", fboSize, fboSize);
 
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
     for(IModel* m : models){
-        m->update(0.1);
+        m->update(0.5);
         m->drawInFbo();
     }
 }
