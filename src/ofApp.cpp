@@ -7,6 +7,7 @@
 #include "ModelLennert.h"
 #include "ModelJalle.h"
 #include "ModelSandie.h"
+#include "ModelMarkian.h"
 
 
 //#include "Model3.h"
@@ -27,7 +28,8 @@ void ofApp::setup(){
     models.back()->setup("model-bjarni.obj", fboSize, fboSize);
 	models.push_back(new ModelSandie());
 	models.back()->setup("model-sandie.obj", fboSize, fboSize);
-
+	models.push_back(new ModelMarkian());
+	models.back()->setup("model-Markian.obj", fboSize, fboSize);
 
 
 }
