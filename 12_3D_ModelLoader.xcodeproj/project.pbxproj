@@ -20,6 +20,7 @@
 		50ACF7CD206BA02500D2CEC8 /* ModelBjarni.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50ACF7C4206BA02500D2CEC8 /* ModelBjarni.cpp */; };
 		8DED5056525646FA71980866 /* ofxAssimpModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE55D82BD962DAC0E94B708 /* ofxAssimpModelLoader.cpp */; };
 		B8846EF8E504895A4A9EFEC0 /* ofxAssimpTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F2EE44AD04FF549AB13699 /* ofxAssimpTexture.cpp */; };
+		DEF247F9206BA0BA0045CAAA /* ModelNicole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF247F7206BA0B90045CAAA /* ModelNicole.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
@@ -112,6 +113,8 @@
 		D1B370068072AAB890CD42D2 /* pstdint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pstdint.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler/pstdint.h; sourceTree = SOURCE_ROOT; };
 		D501EB9AF5A65F43CB972589 /* matrix3x3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = matrix3x3.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/matrix3x3.h; sourceTree = SOURCE_ROOT; };
 		D825FF1F1EA48B305BB428B7 /* scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = scene.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/scene.h; sourceTree = SOURCE_ROOT; };
+		DEF247F7206BA0B90045CAAA /* ModelNicole.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelNicole.cpp; path = src/Models/ModelNicole.cpp; sourceTree = SOURCE_ROOT; };
+		DEF247F8206BA0B90045CAAA /* ModelNicole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelNicole.h; path = src/Models/ModelNicole.h; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* 12_3D_ModelLoaderDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 12_3D_ModelLoaderDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
@@ -153,6 +156,8 @@
 		50ACF7B0206B9F6A00D2CEC8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DEF247F7206BA0B90045CAAA /* ModelNicole.cpp */,
+				DEF247F8206BA0B90045CAAA /* ModelNicole.h */,
 				50ACF7BF206BA02400D2CEC8 /* Model.cpp */,
 				50ACF7B6206BA02400D2CEC8 /* Model.h */,
 				50ACF7C4206BA02500D2CEC8 /* ModelBjarni.cpp */,
@@ -421,6 +426,7 @@
 				483FA4F6D5FA6422C559B1F5 /* ofxAssimpMeshHelper.cpp in Sources */,
 				50ACF7C9206BA02500D2CEC8 /* ModelDmitriy.cpp in Sources */,
 				50ACF7CC206BA02500D2CEC8 /* ModelMarkian.cpp in Sources */,
+				DEF247F9206BA0BA0045CAAA /* ModelNicole.cpp in Sources */,
 				8DED5056525646FA71980866 /* ofxAssimpModelLoader.cpp in Sources */,
 				50ACF7C6206BA02500D2CEC8 /* ModelSandie.cpp in Sources */,
 				50ACF7C5206BA02500D2CEC8 /* ModelSandy.cpp in Sources */,
