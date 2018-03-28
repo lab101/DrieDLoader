@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		3B8120368B4FCCD80883BAF3 /* ofxAssimpAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36068D6C1D6D412786A5C4C1 /* ofxAssimpAnimation.cpp */; };
 		483FA4F6D5FA6422C559B1F5 /* ofxAssimpMeshHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67FE68E327BEFBD4B777571 /* ofxAssimpMeshHelper.cpp */; };
+		50ACF7A6206B816100D2CEC8 /* ModelJalle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50ACF7A5206B816100D2CEC8 /* ModelJalle.cpp */; };
 		50D3B0512058FD0F00F36A23 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50D3B04F2058FD0F00F36A23 /* Model.cpp */; };
-		50D3B05A20591D9700F36A23 /* ModelKris.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50D3B05920591D9700F36A23 /* ModelKris.cpp */; };
 		50D3B05F20593B5C00F36A23 /* ModelDmitriy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50D3B05E20593B5C00F36A23 /* ModelDmitriy.cpp */; };
 		8DED5056525646FA71980866 /* ofxAssimpModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE55D82BD962DAC0E94B708 /* ofxAssimpModelLoader.cpp */; };
 		B8846EF8E504895A4A9EFEC0 /* ofxAssimpTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F2EE44AD04FF549AB13699 /* ofxAssimpTexture.cpp */; };
@@ -65,6 +65,8 @@
 		42B5D460590D03DC3009F243 /* material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = material.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/material.h; sourceTree = SOURCE_ROOT; };
 		42D77E59A87937F5313E468D /* postprocess.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = postprocess.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/postprocess.h; sourceTree = SOURCE_ROOT; };
 		4FAE4A0F69A8990513603BDF /* ofxAssimpUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpUtils.h; path = ../../../addons/ofxAssimpModelLoader/src/ofxAssimpUtils.h; sourceTree = SOURCE_ROOT; };
+		50ACF7A4206B816100D2CEC8 /* ModelJalle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelJalle.h; path = src/Models/ModelJalle.h; sourceTree = SOURCE_ROOT; };
+		50ACF7A5206B816100D2CEC8 /* ModelJalle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelJalle.cpp; path = src/Models/ModelJalle.cpp; sourceTree = SOURCE_ROOT; };
 		50D3B04F2058FD0F00F36A23 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Model.cpp; path = src/Models/Model.cpp; sourceTree = SOURCE_ROOT; };
 		50D3B0502058FD0F00F36A23 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = src/Models/Model.h; sourceTree = SOURCE_ROOT; };
 		50D3B0522058FD1900F36A23 /* IModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IModel.h; sourceTree = "<group>"; };
@@ -133,6 +135,8 @@
 		50D3B04E2058FCF200F36A23 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				50ACF7A5206B816100D2CEC8 /* ModelJalle.cpp */,
+				50ACF7A4206B816100D2CEC8 /* ModelJalle.h */,
 				50D3B05E20593B5C00F36A23 /* ModelDmitriy.cpp */,
 				50D3B05D20593B5C00F36A23 /* ModelDmitriy.h */,
 				50D3B04F2058FD0F00F36A23 /* Model.cpp */,
@@ -379,6 +383,7 @@
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				3B8120368B4FCCD80883BAF3 /* ofxAssimpAnimation.cpp in Sources */,
+				50ACF7A6206B816100D2CEC8 /* ModelJalle.cpp in Sources */,
 				483FA4F6D5FA6422C559B1F5 /* ofxAssimpMeshHelper.cpp in Sources */,
 				50D3B05F20593B5C00F36A23 /* ModelDmitriy.cpp in Sources */,
 				50D3B0512058FD0F00F36A23 /* Model.cpp in Sources */,
