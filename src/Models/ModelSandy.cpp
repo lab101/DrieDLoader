@@ -45,25 +45,26 @@ void ModelSandy::update(float speed) {
     
     faceMesh.clearColors();
     
-    //    // adjust the colors
-    //    float hueStart = fmod(ofGetElapsedTimef() * 10, 255);
-    //    for(ofVec3f& v : vboMesh.getVertices()){
-    //        float h = ofMap(v.x, -0.1, 0.1, hueStart, hueStart +10, true);
-    //        float s = ofMap(v.y, -0.1, 0.1, 255, 100, true);
-    //
-    //        faceMesh.addColor(ofColor::fromHsb(h, s, 255));
-    //    }
-    //
-    //    // clearint the vertices and adding new ones with some noise
-    //    faceMesh.clearVertices();
-    //    for (ofVec3f& v : vboMesh.getVertices()) {
-    //        faceMesh.addVertex((v * 10) + ofVec3f(ofSignedNoise(v.x * 0.1, v.y * 0.4, ofGetElapsedTimef()* speed) * 2.2, ofSignedNoise(v.y, v.x, ofGetElapsedTimef()* .3) * 2.2, 0));
-    //    }
-    //
-    //  light1.setAmbientColor(ofColor::fromHsb(hueStart + 10, 255, 255));
     
     
+        // adjust the colors
+        float hueStart = fmod(ofGetElapsedTimef() * 10, 255);
+        for(ofVec3f& v : vboMesh.getVertices()){
+            float h = ofMap(v.x, -0.1, 0.1, hueStart, hueStart +10, true);
+            float s = ofMap(v.y, -0.1, 0.1, 255, 100, true);
     
+            faceMesh.addColor(ofColor::fromHsb(h, s, 255));
+        }
+    
+        // clearint the vertices and adding new ones with some noise
+    
+    
+        faceMesh.clearVertices();
+        for (ofVec3f& v : vboMesh.getVertices()) {
+            faceMesh.addVertex((v * 10) + ofVec3f(ofSignedNoise(v.x * 0.1, v.y * 0.4, ofGetElapsedTimef()* speed) * 2.2, ofSignedNoise(v.y, v.x, ofGetElapsedTimef()* .3) * 2.2, 0));
+        }
+    //
+      light1.setAmbientColor(ofColor::fromHsb(hueStart + 10, 255, 255));
 }
 
 

@@ -17,6 +17,9 @@
 		B8846EF8E504895A4A9EFEC0 /* ofxAssimpTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F2EE44AD04FF549AB13699 /* ofxAssimpTexture.cpp */; };
 		DEF247E0206B85940045CAAA /* ModelSandy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF247DE206B85940045CAAA /* ModelSandy.cpp */; };
 		DEF247E4206B88BF0045CAAA /* ModelBjarni.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF247E3206B88BF0045CAAA /* ModelBjarni.cpp */; };
+		DEF247EB206B89550045CAAA /* ModelSandie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF247E6206B89540045CAAA /* ModelSandie.cpp */; };
+		DEF247EC206B89550045CAAA /* ModelBram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF247E8206B89540045CAAA /* ModelBram.cpp */; };
+		DEF247ED206B89550045CAAA /* ModelMarkian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF247E9206B89550045CAAA /* ModelMarkian.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
@@ -103,6 +106,12 @@
 		DEF247DF206B85940045CAAA /* ModelSandy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ModelSandy.hpp; path = src/Models/ModelSandy.hpp; sourceTree = SOURCE_ROOT; };
 		DEF247E2206B88BF0045CAAA /* ModelBjarni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelBjarni.h; path = src/Models/ModelBjarni.h; sourceTree = SOURCE_ROOT; };
 		DEF247E3206B88BF0045CAAA /* ModelBjarni.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelBjarni.cpp; path = src/Models/ModelBjarni.cpp; sourceTree = SOURCE_ROOT; };
+		DEF247E5206B89540045CAAA /* ModelMarkian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelMarkian.h; path = src/Models/ModelMarkian.h; sourceTree = SOURCE_ROOT; };
+		DEF247E6206B89540045CAAA /* ModelSandie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelSandie.cpp; path = src/Models/ModelSandie.cpp; sourceTree = SOURCE_ROOT; };
+		DEF247E7206B89540045CAAA /* ModelSandie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelSandie.h; path = src/Models/ModelSandie.h; sourceTree = SOURCE_ROOT; };
+		DEF247E8206B89540045CAAA /* ModelBram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelBram.cpp; path = src/Models/ModelBram.cpp; sourceTree = SOURCE_ROOT; };
+		DEF247E9206B89550045CAAA /* ModelMarkian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelMarkian.cpp; path = src/Models/ModelMarkian.cpp; sourceTree = SOURCE_ROOT; };
+		DEF247EA206B89550045CAAA /* ModelBram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelBram.h; path = src/Models/ModelBram.h; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* 12_3D_ModelLoaderDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 12_3D_ModelLoaderDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
@@ -144,6 +153,12 @@
 		50D3B04E2058FCF200F36A23 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DEF247E8206B89540045CAAA /* ModelBram.cpp */,
+				DEF247EA206B89550045CAAA /* ModelBram.h */,
+				DEF247E9206B89550045CAAA /* ModelMarkian.cpp */,
+				DEF247E5206B89540045CAAA /* ModelMarkian.h */,
+				DEF247E6206B89540045CAAA /* ModelSandie.cpp */,
+				DEF247E7206B89540045CAAA /* ModelSandie.h */,
 				DEF247E3206B88BF0045CAAA /* ModelBjarni.cpp */,
 				DEF247E2206B88BF0045CAAA /* ModelBjarni.h */,
 				9F738A7E206B810100BF3668 /* ModelJalle.cpp */,
@@ -397,11 +412,14 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				DEF247ED206B89550045CAAA /* ModelMarkian.cpp in Sources */,
 				9F738A7F206B810200BF3668 /* ModelJalle.cpp in Sources */,
+				DEF247EC206B89550045CAAA /* ModelBram.cpp in Sources */,
 				DEF247E0206B85940045CAAA /* ModelSandy.cpp in Sources */,
 				9F8C54FD206B7F9B00EC23E8 /* ModelLennert.cpp in Sources */,
 				3B8120368B4FCCD80883BAF3 /* ofxAssimpAnimation.cpp in Sources */,
 				483FA4F6D5FA6422C559B1F5 /* ofxAssimpMeshHelper.cpp in Sources */,
+				DEF247EB206B89550045CAAA /* ModelSandie.cpp in Sources */,
 				50D3B05F20593B5C00F36A23 /* ModelDmitriy.cpp in Sources */,
 				50D3B0512058FD0F00F36A23 /* Model.cpp in Sources */,
 				8DED5056525646FA71980866 /* ofxAssimpModelLoader.cpp in Sources */,
