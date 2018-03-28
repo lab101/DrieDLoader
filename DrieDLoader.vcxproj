@@ -173,6 +173,7 @@
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Models\ModelBjarni.cpp" />
+    <ClCompile Include="src\Models\ModelBram.cpp" />
     <ClCompile Include="src\Models\ModelDmitriy.cpp" />
     <ClCompile Include="src\Models\ModelJalle.cpp" />
     <ClCompile Include="src\Models\ModelLennert.cpp" />
@@ -187,6 +188,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Models\ModelBjarni.h" />
+    <ClInclude Include="src\Models\ModelBram.h" />
     <ClInclude Include="src\Models\ModelDmitriy.h" />
     <ClInclude Include="src\Models\ModelJalle.h" />
     <ClInclude Include="src\Models\ModelLennert.h" />
