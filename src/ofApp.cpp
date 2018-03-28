@@ -2,10 +2,10 @@
 
 #include "Model.h"
 
-
 #include "ModelDmitriy.h"
 #include "ModelLennert.h"
 #include "ModelJalle.h"
+#include "ModelSandy.hpp"
 
 
 //#include "Model3.h"
@@ -23,7 +23,8 @@ void ofApp::setup(){
     models.back()->setup("model-bjarni.obj", fboSize, fboSize);
     models.push_back(new Model());
     models.back()->setup("model-lennert.obj", fboSize, fboSize);
-
+    models.push_back(new ModelSandy());
+    models.back()->setup("model-sandy.obj", fboSize, fboSize);
 
 }
 
