@@ -14,24 +14,15 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
-
-    fboSize = 550;
+ fboSize = 250;
     models.push_back(new ModelLennert());
     models.back()->setup("model-lennert.obj", fboSize, fboSize);
-
-    fboSize = 250;
-
-
     models.push_back(new ModelJalle());
     models.back()->setup("model-jalle.obj", fboSize, fboSize);
     models.push_back(new ModelDmitriy());
     models.back()->setup("model-dmitriy.obj", fboSize, fboSize);
     models.push_back(new Model());
     models.back()->setup("model-bjarni.obj", fboSize, fboSize);
-
-  
-    models.push_back(new Model());
-    models.back()->setup("model-lennert.obj", fboSize, fboSize);
 	models.push_back(new ModelSandie());
 	models.back()->setup("model-sandie.obj", fboSize, fboSize);
 
