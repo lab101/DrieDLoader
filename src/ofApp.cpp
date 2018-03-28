@@ -9,6 +9,7 @@
 #include "ModelSandie.h"
 #include "ModelMarkian.h"
 #include "ModelBjarni.h"
+#include "ModelBram.h"
 
 
 //#include "Model3.h"
@@ -31,6 +32,8 @@ void ofApp::setup(){
 	models.back()->setup("model-sandie.obj", fboSize, fboSize);
 	models.push_back(new ModelMarkian());
 	models.back()->setup("model-Markian.obj", fboSize, fboSize);
+	models.push_back(new ModelBram());
+	models.back()->setup("model-Bram.obj", fboSize, fboSize);
 
 
 }
