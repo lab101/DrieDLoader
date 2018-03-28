@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\Models\ModelJalle.cpp" />
+    <ClCompile Include="src\Models\ModelDmitriy.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\Models\Model.cpp" />
     <ClCompile Include="src\Models\ModelKris.cpp" />
@@ -182,7 +182,7 @@
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Models\ModelJalle.h" />
+    <ClInclude Include="src\Models\ModelDmitriy.h" />
     <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="src\IModel.h" />
     <ClInclude Include="src\Models\Model.h" />

@@ -3,7 +3,7 @@
 #include "Model.h"
 
 
-#include "ModelKris.h"
+#include "ModelDmitriy.h"
 
 #include "ModelJalle.h"
 
@@ -15,8 +15,16 @@ void ofApp::setup(){
     
     fboSize = 550;
 
+<<<<<<< HEAD
     models.push_back(new ModelJalle());
     models.back()->setup("model-jalle.obj", fboSize, fboSize);
+=======
+    models.push_back(new ModelDmitriy());
+    models.back()->setup("model-dmitriy.obj", fboSize, fboSize);
+
+    models.push_back(new Model());
+    models.back()->setup("model-bjarni.obj", fboSize, fboSize);
+>>>>>>> a8a9813098a9e90471afceb4c64c6a201f9da4e4
 
 }
 
@@ -30,9 +38,18 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+    
+    ofVec2f offset;
     for(IModel* m : models){
-        m->drawFbo(0, 0);
+        m->drawFbo(offset.x,offset.y);
+        
+        offset.x += fboSize +2;
+        if(offset.x > ofGetWidth() - fboSize){
+            offset.y += fboSize + 2;
+        }
     }
+    
+    
 }
 
 //--------------------------------------------------------------

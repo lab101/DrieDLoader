@@ -11,6 +11,7 @@
 		483FA4F6D5FA6422C559B1F5 /* ofxAssimpMeshHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67FE68E327BEFBD4B777571 /* ofxAssimpMeshHelper.cpp */; };
 		50D3B0512058FD0F00F36A23 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50D3B04F2058FD0F00F36A23 /* Model.cpp */; };
 		50D3B05A20591D9700F36A23 /* ModelKris.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50D3B05920591D9700F36A23 /* ModelKris.cpp */; };
+		50D3B05F20593B5C00F36A23 /* ModelDmitriy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50D3B05E20593B5C00F36A23 /* ModelDmitriy.cpp */; };
 		8DED5056525646FA71980866 /* ofxAssimpModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE55D82BD962DAC0E94B708 /* ofxAssimpModelLoader.cpp */; };
 		B8846EF8E504895A4A9EFEC0 /* ofxAssimpTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F2EE44AD04FF549AB13699 /* ofxAssimpTexture.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -67,8 +68,8 @@
 		50D3B04F2058FD0F00F36A23 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Model.cpp; path = src/Models/Model.cpp; sourceTree = SOURCE_ROOT; };
 		50D3B0502058FD0F00F36A23 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = src/Models/Model.h; sourceTree = SOURCE_ROOT; };
 		50D3B0522058FD1900F36A23 /* IModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IModel.h; sourceTree = "<group>"; };
-		50D3B05820591D9700F36A23 /* ModelKris.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelKris.h; path = src/Models/ModelKris.h; sourceTree = SOURCE_ROOT; };
-		50D3B05920591D9700F36A23 /* ModelKris.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelKris.cpp; path = src/Models/ModelKris.cpp; sourceTree = SOURCE_ROOT; };
+		50D3B05D20593B5C00F36A23 /* ModelDmitriy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelDmitriy.h; path = src/Models/ModelDmitriy.h; sourceTree = SOURCE_ROOT; };
+		50D3B05E20593B5C00F36A23 /* ModelDmitriy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelDmitriy.cpp; path = src/Models/ModelDmitriy.cpp; sourceTree = SOURCE_ROOT; };
 		6A0E743407465957DB764ED3 /* mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mesh.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/mesh.h; sourceTree = SOURCE_ROOT; };
 		6E069CE4C58E970E3429DBE5 /* Importer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Importer.hpp; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Importer.hpp; sourceTree = SOURCE_ROOT; };
 		7920005E4069FBD68DF30F56 /* config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = config.h; path = ../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/config.h; sourceTree = SOURCE_ROOT; };
@@ -132,8 +133,8 @@
 		50D3B04E2058FCF200F36A23 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				50D3B05920591D9700F36A23 /* ModelKris.cpp */,
-				50D3B05820591D9700F36A23 /* ModelKris.h */,
+				50D3B05E20593B5C00F36A23 /* ModelDmitriy.cpp */,
+				50D3B05D20593B5C00F36A23 /* ModelDmitriy.h */,
 				50D3B04F2058FD0F00F36A23 /* Model.cpp */,
 				50D3B0502058FD0F00F36A23 /* Model.h */,
 			);
@@ -375,11 +376,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50D3B05A20591D9700F36A23 /* ModelKris.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				3B8120368B4FCCD80883BAF3 /* ofxAssimpAnimation.cpp in Sources */,
 				483FA4F6D5FA6422C559B1F5 /* ofxAssimpMeshHelper.cpp in Sources */,
+				50D3B05F20593B5C00F36A23 /* ModelDmitriy.cpp in Sources */,
 				50D3B0512058FD0F00F36A23 /* Model.cpp in Sources */,
 				8DED5056525646FA71980866 /* ofxAssimpModelLoader.cpp in Sources */,
 				B8846EF8E504895A4A9EFEC0 /* ofxAssimpTexture.cpp in Sources */,
