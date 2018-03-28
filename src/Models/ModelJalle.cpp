@@ -56,17 +56,23 @@ void ModelJalle::update(float speed) {
     */
     // clearint the vertices and adding new ones with some noise
 	/*
+
     faceMesh.clearVertices();
     for (ofVec3f& v : vboMesh.getVertices()) {
+		//glPointSize(ofNoise(ofGetElapsedTimef() * 0.8, v.y) * 10);
 		faceMesh.addVertex((v * 10) + ofVec3f(v.x , v.y , v.z ));
-    }*/
+    }
+
+	*/
 	//ofVec3f(v.x * 20 * cos(ofGetElapsedTimef()), v.y * 20 * sin(ofGetElapsedTimef()), v.z)
 
+	
+	/*
 	faceMesh.clearVertices();
 	    for (ofVec3f& v : vboMesh.getVertices()) {
 	        faceMesh.addVertex((v * 10) + ofVec3f(ofSignedNoise(v.x * 0.1, v.y * 0.4, ofGetElapsedTimef()* speed) * 2.2, ofSignedNoise(v.y, v.x, ofGetElapsedTimef()* .3) * 2.2, 0));
 	    }
-    
+    */
   
 
 
@@ -77,7 +83,7 @@ void ModelJalle::update(float speed) {
 void ModelJalle::draw() {
 	
    // float hueStart = fmod(ofGetElapsedTimef() * 10, 255);    
-    ofClear(ofColor(220, 220, 220));
+    ofClear(ofColor(0, 0, 0));
 
 
 	camera.begin();
@@ -95,16 +101,28 @@ void ModelJalle::draw() {
 
         // draw mesh with lighting
         light1.enable();
+
+
+		for (ofVec3f& v : vboMesh.getVertices()) {
+			//ofDrawBox(v * 12, ofNoise(ofGetElapsedTimef() * 0.8, v.z) * 0.5);
+			//ofDrawSphere(v * 12, ofNoise(ofGetElapsedTimef() * 0.8, v.z) * 0.5);
+			ofDrawCylinder(v * 12, ofNoise(ofGetElapsedTimef() * 0.8, v.z) * 0.5, ofNoise(ofGetElapsedTimef() * 0.3, v.y) * 0.8);
+
+		}
         //faceMesh.drawFaces();
         light1.disable();
 
 
 
+		
+
+
+
         ofDisableLighting();
         // for vertices and wireframe draw without lighting
-		glPointSize(ofGetElapsedTimef());
+		
         //faceMesh.drawVertices();
-        faceMesh.drawWireframe();
+        //faceMesh.drawWireframe();
     
 	ofPopMatrix();
 	camera.end();
