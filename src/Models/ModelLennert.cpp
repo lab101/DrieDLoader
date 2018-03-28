@@ -113,6 +113,8 @@ void ModelLennert::update(float speed) {
 
 
 void ModelLennert::draw() {
+    
+    
     float hueStart = fmod(ofGetElapsedTimef() * 10, 255);
     ofClear(ofColor::fromHsb(hueStart, 70, 255));
     
@@ -136,6 +138,7 @@ void ModelLennert::draw() {
         float h = ofMap(v.x, -0.1, 0.1, hueStart, hueStart +20, true);
         float s = ofMap(v.y, -0.1, 0.1, 255, 100, true);
         ofSetColor(ofColor::fromHsb(h, s, 255));
+        
     }
     
     for (ofVec3f& v : vboMesh.getVertices()) {
@@ -151,7 +154,7 @@ void ModelLennert::draw() {
         
         float x = sin((ofGetElapsedTimef()))+v.x;
         float radius = ofMap(x, -1, 1, 0.05, 0.08);
-        float xPos = ofMap(x, -1, 1, distance*20, distance*100);
+        float xPos = ofMap(x, -1, 1, distance*20, distance*90);
         float xPosRand = ofMap(xPos, -1, 1, 0.05, 0);
         force*= xPos;
         
