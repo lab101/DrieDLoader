@@ -6,6 +6,8 @@
 #include "ModelDmitriy.h"
 #include "ModelLennert.h"
 
+#include "ModelJalle.h"
+
 
 //#include "Model3.h"
 
@@ -14,20 +16,22 @@ void ofApp::setup(){
     
     fboSize = 550;
 
+    models.push_back(new ModelJalle());
+    models.back()->setup("model-jalle.obj", fboSize, fboSize);
     models.push_back(new ModelDmitriy());
     models.back()->setup("model-dmitriy.obj", fboSize, fboSize);
-
     models.push_back(new Model());
     models.back()->setup("model-bjarni.obj", fboSize, fboSize);
     models.push_back(new Model());
     models.back()->setup("model-lennert.obj", fboSize, fboSize);
+
 
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
     for(IModel* m : models){
-        m->update(0.1);
+        m->update(0.5);
         m->drawInFbo();
     }
 }
