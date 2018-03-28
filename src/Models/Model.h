@@ -4,10 +4,24 @@
 #include "ofxAssimpModelLoader.h"
 #include "IModel.h"
 
+
+class Particle{
+    
+public:
+    ofVec3f startPosition;
+    ofVec3f orginalPosition;
+    ofVec3f currentPostion;
+    float speed;
+};
+
+
 class Model : public IModel {
 
 	ofxAssimpModelLoader modelLoader;
 	ofMesh faceMesh;
+    
+    
+    float resetAnimationTimer;
     
     // original loaded mesh in a vbo
     ofVboMesh vboMesh;
@@ -16,6 +30,8 @@ class Model : public IModel {
 	ofLight light1;
 
 	ofFbo fbo;
+    
+    vector<Particle> particles;
 
 
 public:
