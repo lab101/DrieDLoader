@@ -17,7 +17,7 @@ void ModelBjarni::setup(string path, float fboWidth, float fboHeight) {
 
 	// recreating the mesh.
 	for (ofVec3f& v : vertices) {
-		faceMesh.addVertex(v * 10);
+		faceMesh.addVertex(v * 15);
 	}
 
 	for (size_t index : indices) {
@@ -33,7 +33,7 @@ void ModelBjarni::setup(string path, float fboWidth, float fboHeight) {
 	camera.setPosition(0, 9, 9);
 	camera.lookAt(ofVec3f(0, 3, -8));
 
-	light1.setPosition(0, 5, 5);
+	light1.setPosition(0, 0, 5);
 
 	fbo.allocate(fboWidth, fboHeight);
 
@@ -56,11 +56,13 @@ void ModelBjarni::update(float speed) {
 
 	// clearint the vertices and adding new ones with some noise
 	faceMesh.clearVertices();
+	
 	for (ofVec3f& v : vboMesh.getVertices()) {
 	faceMesh.addVertex((v * 12) + ofVec3f((v.x, v.y) * 2.2, ofSignedNoise(v.y, v.x, ofGetElapsedTimef()* .5) * 2.2, 0));
 	}
 	*/
-	light1.setAmbientColor(ofColor::fromHsb(hueStart + 10, 255, 255));
+	
+	light1.setAmbientColor(ofColor::fromHex(0x0900ff,1));
 }
 
 
@@ -77,21 +79,22 @@ void ModelBjarni::draw() {
 
 	ofPushMatrix();
 
-	ofRotateY(ofGetElapsedTimef() * 10);
+	//ofRotateY(ofGetElapsedTimef() * 10);
 	ofRotateX(-90);
-	ofScale(1.5, 1.5, 1.5);
+	ofScale(2, 2, 2);
 
 	// draw mesh with lighting
-	light1.enable();
-	light2.enable();
+		light1.enable();
 	//faceMesh.drawFaces();
 
+	
+
 	for (ofVec3f& v : vboMesh.getVertices()) {
-		ofDrawBox(v * 12, ofSignedNoise(v.y, v.x, v.z, ofGetElapsedTimef()* .3));
+		float radius = ofSignedNoise(v.y, v.x* -0.2, v.z, ofGetElapsedTimef()* -0.2)/2;
+		ofDrawSphere(v*10, radius);
 	}
 
 	light1.disable();
-	light2.disable();
 
 	ofDisableLighting();
 	// for vertices and wireframe draw without lighting

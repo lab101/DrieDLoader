@@ -14,7 +14,6 @@ class ModelBjarni : public IModel {
 
 	ofCamera camera;
 	ofLight light1;
-	ofLight light2;
 
 	ofFbo fbo;
 
