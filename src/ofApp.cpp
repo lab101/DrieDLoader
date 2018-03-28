@@ -11,7 +11,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
-    fboSize = 550;
+    fboSize = 250;
 
     models.push_back(new ModelDmitriy());
     models.back()->setup("model-dmitriy.obj", fboSize, fboSize);
