@@ -1,20 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="src\main.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="src\main.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\Models\Model.cpp">
-      <Filter>src\Models</Filter>
+      <Filter>models</Filter>
     </ClCompile>
-=======
->>>>>>> origin/master
-    <ClCompile Include="src\ofApp.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Models\ModelBjarni.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelBram.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelDmitriy.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelJalle.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelLennert.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelMarkian.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelNicole.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelSandie.cpp">
+      <Filter>models</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.cpp">
       <Filter>externals</Filter>
@@ -28,104 +42,12 @@
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.cpp">
       <Filter>externals</Filter>
     </ClCompile>
-    <ClCompile Include="src\Models\Model.cpp">
-      <Filter>src\models</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Models\ModelBjarni.cpp">
-      <Filter>src\models</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Models\ModelBram.cpp">
-      <Filter>src\models</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Models\ModelDmitriy.cpp">
-<<<<<<< HEAD
-      <Filter>src\Models</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Models\ModelNicole.cpp">
-      <Filter>src\Models</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Models\ModelJalle.cpp">
-      <Filter>src\Models</Filter>
+    <ClCompile Include="src\Models\ModelSandy.cpp">
+      <Filter>models</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="src">
-      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\Models">
-      <UniqueIdentifier>{9A4D8C0C-85F3-D47F-D278-FFF2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons">
-      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxAssimpModelLoader">
-      <UniqueIdentifier>{DE65D9F7-840A-CD0A-A555-EA3B}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxAssimpModelLoader\src">
-      <UniqueIdentifier>{B84008DC-4B5E-271B-05DA-D8C8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxAssimpModelLoader\libs">
-      <UniqueIdentifier>{3D854F79-FA4A-75FA-FC0A-2B25}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxAssimpModelLoader\libs\assimp">
-      <UniqueIdentifier>{FE8B5295-D3A7-B9CD-89C9-2613}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxAssimpModelLoader\libs\assimp\include">
-      <UniqueIdentifier>{EDC34C4F-5D44-FB76-337E-EE48}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxAssimpModelLoader\libs\assimp\include\assimp">
-      <UniqueIdentifier>{E66BABFA-76A1-EB8D-40FF-B940}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler">
-      <UniqueIdentifier>{A0C31C2E-6C01-8850-3B72-C818}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\ofApp.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\IModel.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\Model.h">
-      <Filter>src\Models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\ofApp.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.h">
-      <Filter>addons\ofxAssimpModelLoader\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.h">
-      <Filter>addons\ofxAssimpModelLoader\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h">
-      <Filter>addons\ofxAssimpModelLoader\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.h">
-      <Filter>addons\ofxAssimpModelLoader\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpUtils.h">
-      <Filter>addons\ofxAssimpModelLoader\src</Filter>
-    </ClInclude>
-=======
-      <Filter>src\models</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Models\ModelJalle.cpp">
-      <Filter>src\models</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Models\ModelLennert.cpp">
-      <Filter>src\models</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Models\ModelMarkian.cpp">
-      <Filter>src\models</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Models\ModelSandie.cpp">
-      <Filter>src\models</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
->>>>>>> origin/master
+    <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\ai_assert.h">
       <Filter>externals</Filter>
     </ClInclude>
@@ -158,6 +80,9 @@
     </ClInclude>
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Exporter.hpp">
       <Filter>externals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IModel.h">
+      <Filter>models</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Importer.hpp">
       <Filter>externals</Filter>
@@ -195,11 +120,38 @@
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\metadata.h">
       <Filter>externals</Filter>
     </ClInclude>
+    <ClInclude Include="src\Models\Model.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelBjarni.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelBram.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelDmitriy.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelJalle.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelLennert.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelMarkian.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelNicole.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelSandie.h">
+      <Filter>models</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\NullLogger.hpp">
       <Filter>externals</Filter>
     </ClInclude>
-    <ClInclude Include="src\ofApp.h">
-      <Filter>src</Filter>
+    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\version.h">
+      <Filter>externals</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.h">
       <Filter>externals</Filter>
@@ -249,56 +201,16 @@
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\vector3.h">
       <Filter>externals</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\version.h">
-      <Filter>externals</Filter>
-    </ClInclude>
-    <ClInclude Include="src\IModel.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\Model.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelBjarni.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelBram.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelDmitriy.h">
-<<<<<<< HEAD
-      <Filter>src\Models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelNicole.h">
-      <Filter>src\Models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelJalle.h">
-      <Filter>src\Models</Filter>
-=======
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelJalle.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelLennert.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelMarkian.h">
-      <Filter>src\models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelSandie.h">
-      <Filter>src\models</Filter>
->>>>>>> origin/master
+    <ClInclude Include="src\Models\ModelSandy.h">
+      <Filter>models</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="externals">
-      <UniqueIdentifier>{2be3e5e6-7f37-4817-bf78-d57a04274149}</UniqueIdentifier>
+      <UniqueIdentifier>{0195c1f2-b6d0-45f1-aaea-395a9fe27e1e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{af652262-9c02-4edf-b8fb-833b86a5bcaa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\models">
-      <UniqueIdentifier>{1d8f1e09-bc56-42fb-9029-d144db06cda9}</UniqueIdentifier>
+    <Filter Include="models">
+      <UniqueIdentifier>{ba6c907d-49a6-4c90-909f-68ee8c993d5b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

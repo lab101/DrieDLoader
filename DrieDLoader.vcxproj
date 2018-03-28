@@ -176,13 +176,11 @@
     <ClCompile Include="src\Models\ModelBram.cpp" />
     <ClCompile Include="src\Models\ModelDmitriy.cpp" />
     <ClCompile Include="src\Models\ModelJalle.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="src\Models\ModelNicole.cpp" />
-=======
     <ClCompile Include="src\Models\ModelLennert.cpp" />
     <ClCompile Include="src\Models\ModelMarkian.cpp" />
     <ClCompile Include="src\Models\ModelSandie.cpp" />
->>>>>>> origin/master
+    <ClCompile Include="src\Models\ModelSandy.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\Models\Model.cpp" />
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.cpp" />
@@ -195,13 +193,11 @@
     <ClInclude Include="src\Models\ModelBram.h" />
     <ClInclude Include="src\Models\ModelDmitriy.h" />
     <ClInclude Include="src\Models\ModelJalle.h" />
-<<<<<<< HEAD
     <ClInclude Include="src\Models\ModelNicole.h" />
-=======
     <ClInclude Include="src\Models\ModelLennert.h" />
     <ClInclude Include="src\Models\ModelMarkian.h" />
     <ClInclude Include="src\Models\ModelSandie.h" />
->>>>>>> origin/master
+    <ClInclude Include="src\Models\ModelSandy.h" />
     <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="src\IModel.h" />
     <ClInclude Include="src\Models\Model.h" />
