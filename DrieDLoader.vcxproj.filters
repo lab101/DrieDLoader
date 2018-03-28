@@ -2,25 +2,25 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Models\ModelBjarni.cpp" />
     <ClCompile Include="src\Models\ModelDmitriy.cpp" />
+    <ClCompile Include="src\Models\ModelJalle.cpp" />
+    <ClCompile Include="src\Models\ModelLennert.cpp" />
+    <ClCompile Include="src\Models\ModelSandie.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\Models\Model.cpp" />
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.cpp" />
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.cpp" />
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.cpp" />
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.cpp" />
-<<<<<<< HEAD
-    <ClCompile Include="src\Models\ModelBjarni.cpp" />
-    <ClCompile Include="src\Models\ModelJalle.cpp" />
-    <ClCompile Include="src\Models\ModelLennert.cpp" />
-    <ClCompile Include="src\Models\ModelSandie.cpp" />
-=======
-    <ClCompile Include="src\Models\ModelLennert.cpp" />
-    <ClCompile Include="src\Models\ModelJalle.cpp" />
->>>>>>> 97c388228eb87776546b594daa6b122f7d6ad99b
+    <ClCompile Include="src\Models\ModelMarkian.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Models\ModelBjarni.h" />
     <ClInclude Include="src\Models\ModelDmitriy.h" />
+    <ClInclude Include="src\Models\ModelJalle.h" />
+    <ClInclude Include="src\Models\ModelLennert.h" />
+    <ClInclude Include="src\Models\ModelSandie.h" />
     <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="src\IModel.h" />
     <ClInclude Include="src\Models\Model.h" />
@@ -65,15 +65,7 @@
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\vector2.h" />
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\vector3.h" />
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\version.h" />
-<<<<<<< HEAD
-    <ClInclude Include="src\Models\ModelBjarni.h" />
-    <ClInclude Include="src\Models\ModelJalle.h" />
-    <ClInclude Include="src\Models\ModelLennert.h" />
-    <ClInclude Include="src\Models\ModelSandie.h" />
-=======
-    <ClInclude Include="src\Models\ModelLennert.h" />
-    <ClInclude Include="src\Models\ModelJalle.h" />
->>>>>>> 97c388228eb87776546b594daa6b122f7d6ad99b
+    <ClInclude Include="src\Models\ModelMarkian.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="icon.rc" />
