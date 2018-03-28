@@ -4,8 +4,12 @@
 
 
 #include "ModelDmitriy.h"
-
+#include "ModelLennert.h"
 #include "ModelJalle.h"
+#include "ModelSandie.h"
+#include "ModelMarkian.h"
+#include "ModelBjarni.h"
+#include "ModelBram.h"
 
 
 //#include "Model3.h"
@@ -13,14 +17,23 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
-    fboSize = 550;
+  
+    fboSize = 250;
 
+    models.push_back(new ModelLennert());
+    models.back()->setup("model-lennert.obj", fboSize, fboSize);
     models.push_back(new ModelJalle());
     models.back()->setup("model-jalle.obj", fboSize, fboSize);
     models.push_back(new ModelDmitriy());
     models.back()->setup("model-dmitriy.obj", fboSize, fboSize);
-    models.push_back(new Model());
+    models.push_back(new ModelBjarni());
     models.back()->setup("model-bjarni.obj", fboSize, fboSize);
+	models.push_back(new ModelSandie());
+	models.back()->setup("model-sandie.obj", fboSize, fboSize);
+	models.push_back(new ModelMarkian());
+	models.back()->setup("model-Markian.obj", fboSize, fboSize);
+	models.push_back(new ModelBram());
+	models.back()->setup("model-Bram.obj", fboSize, fboSize);
 
 
 }
@@ -43,6 +56,7 @@ void ofApp::draw(){
         offset.x += fboSize +2;
         if(offset.x > ofGetWidth() - fboSize){
             offset.y += fboSize + 2;
+            offset.x = 0;
         }
     }
     
