@@ -8,12 +8,13 @@ class ModelBjarni : public IModel {
 
 	ofxAssimpModelLoader modelLoader;
 	ofMesh faceMesh;
-    
-    // original loaded mesh in a vbo
-    ofVboMesh vboMesh;
-    
+
+	// original loaded mesh in a vbo
+	ofVboMesh vboMesh;
+
 	ofCamera camera;
 	ofLight light1;
+	ofLight light2;
 
 	ofFbo fbo;
 
@@ -28,3 +29,4 @@ public:
 
 
 };
+
