@@ -173,9 +173,10 @@
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Models\ModelDmitriy.cpp" />
+    <ClCompile Include="src\Models\ModelJalle.cpp" />
+    <ClCompile Include="src\Models\ModelNicole.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\Models\Model.cpp" />
-    <ClCompile Include="src\Models\ModelKris.cpp" />
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.cpp" />
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.cpp" />
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.cpp" />
@@ -183,10 +184,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Models\ModelDmitriy.h" />
+    <ClInclude Include="src\Models\ModelJalle.h" />
+    <ClInclude Include="src\Models\ModelNicole.h" />
     <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="src\IModel.h" />
     <ClInclude Include="src\Models\Model.h" />
-    <ClInclude Include="src\Models\ModelKris.h" />
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.h" />
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.h" />
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h" />

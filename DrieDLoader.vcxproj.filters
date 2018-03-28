@@ -13,9 +13,6 @@
     <ClCompile Include="src\Models\Model.cpp">
       <Filter>src\Models</Filter>
     </ClCompile>
-    <ClCompile Include="src\Models\ModelKris.cpp">
-      <Filter>src\Models</Filter>
-    </ClCompile>
     <ClCompile Include="src\ofApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -31,11 +28,13 @@
     <ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.cpp">
       <Filter>addons\ofxAssimpModelLoader\src</Filter>
     </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="src\Models\ModelJalle.cpp">
-=======
     <ClCompile Include="src\Models\ModelDmitriy.cpp">
->>>>>>> a8a9813098a9e90471afceb4c64c6a201f9da4e4
+      <Filter>src\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelNicole.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelJalle.cpp">
       <Filter>src\Models</Filter>
     </ClCompile>
   </ItemGroup>
@@ -79,9 +78,6 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\Models\Model.h">
-      <Filter>src\Models</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Models\ModelKris.h">
       <Filter>src\Models</Filter>
     </ClInclude>
     <ClInclude Include="src\ofApp.h">
@@ -210,11 +206,13 @@
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\version.h">
       <Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="src\Models\ModelJalle.h">
-=======
     <ClInclude Include="src\Models\ModelDmitriy.h">
->>>>>>> a8a9813098a9e90471afceb4c64c6a201f9da4e4
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelNicole.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelJalle.h">
       <Filter>src\Models</Filter>
     </ClInclude>
   </ItemGroup>
