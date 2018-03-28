@@ -5,8 +5,8 @@
 
 #include "ModelDmitriy.h"
 #include "ModelLennert.h"
-
 #include "ModelJalle.h"
+#include "ModelSandie.h"
 
 
 //#include "Model3.h"
@@ -14,21 +14,27 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
-<<<<<<< HEAD
+
     fboSize = 550;
     models.push_back(new ModelLennert());
     models.back()->setup("model-lennert.obj", fboSize, fboSize);
-=======
+
     fboSize = 250;
 
->>>>>>> 6da8487a435c6eb2e2b34ffb01980e04d725ff02
+
     models.push_back(new ModelJalle());
     models.back()->setup("model-jalle.obj", fboSize, fboSize);
     models.push_back(new ModelDmitriy());
     models.back()->setup("model-dmitriy.obj", fboSize, fboSize);
     models.push_back(new Model());
     models.back()->setup("model-bjarni.obj", fboSize, fboSize);
+
   
+    models.push_back(new Model());
+    models.back()->setup("model-lennert.obj", fboSize, fboSize);
+	models.push_back(new ModelSandie());
+	models.back()->setup("model-sandie.obj", fboSize, fboSize);
+
 
 
 }
