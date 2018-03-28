@@ -10,6 +10,7 @@
 		3B8120368B4FCCD80883BAF3 /* ofxAssimpAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36068D6C1D6D412786A5C4C1 /* ofxAssimpAnimation.cpp */; };
 		483FA4F6D5FA6422C559B1F5 /* ofxAssimpMeshHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67FE68E327BEFBD4B777571 /* ofxAssimpMeshHelper.cpp */; };
 		50D3B0512058FD0F00F36A23 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50D3B04F2058FD0F00F36A23 /* Model.cpp */; };
+		50D3B05A20591D9700F36A23 /* ModelKris.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50D3B05920591D9700F36A23 /* ModelKris.cpp */; };
 		50D3B05F20593B5C00F36A23 /* ModelDmitriy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50D3B05E20593B5C00F36A23 /* ModelDmitriy.cpp */; };
 		8DED5056525646FA71980866 /* ofxAssimpModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDE55D82BD962DAC0E94B708 /* ofxAssimpModelLoader.cpp */; };
 		B8846EF8E504895A4A9EFEC0 /* ofxAssimpTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F2EE44AD04FF549AB13699 /* ofxAssimpTexture.cpp */; };
