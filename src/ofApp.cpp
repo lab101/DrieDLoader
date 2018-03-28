@@ -5,7 +5,6 @@
 
 #include "ModelDmitriy.h"
 #include "ModelLennert.h"
-
 #include "ModelJalle.h"
 
 
@@ -14,7 +13,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
-    fboSize = 550;
+    fboSize = 250;
 
     models.push_back(new ModelJalle());
     models.back()->setup("model-jalle.obj", fboSize, fboSize);
