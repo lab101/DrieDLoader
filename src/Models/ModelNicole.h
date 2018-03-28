@@ -1,10 +1,11 @@
 #pragma once
+#pragma once
 
 #include "ofMain.h"
 #include "ofxAssimpModelLoader.h"
 #include "IModel.h"
 
-class ModelBjarni : public IModel {
+class ModelNicole : public IModel {
 
 	ofxAssimpModelLoader modelLoader;
 	ofMesh faceMesh;
@@ -14,7 +15,6 @@ class ModelBjarni : public IModel {
 
 	ofCamera camera;
 	ofLight light1;
-	ofLight light2;
 
 	ofFbo fbo;
 
@@ -29,4 +29,3 @@ public:
 
 
 };
-

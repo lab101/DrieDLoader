@@ -4,6 +4,15 @@
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
+<<<<<<< HEAD
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\Model.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
+=======
+>>>>>>> origin/master
     <ClCompile Include="src\ofApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -29,6 +38,77 @@
       <Filter>src\models</Filter>
     </ClCompile>
     <ClCompile Include="src\Models\ModelDmitriy.cpp">
+<<<<<<< HEAD
+      <Filter>src\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelNicole.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Models\ModelJalle.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models">
+      <UniqueIdentifier>{9A4D8C0C-85F3-D47F-D278-FFF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxAssimpModelLoader">
+      <UniqueIdentifier>{DE65D9F7-840A-CD0A-A555-EA3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxAssimpModelLoader\src">
+      <UniqueIdentifier>{B84008DC-4B5E-271B-05DA-D8C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxAssimpModelLoader\libs">
+      <UniqueIdentifier>{3D854F79-FA4A-75FA-FC0A-2B25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxAssimpModelLoader\libs\assimp">
+      <UniqueIdentifier>{FE8B5295-D3A7-B9CD-89C9-2613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxAssimpModelLoader\libs\assimp\include">
+      <UniqueIdentifier>{EDC34C4F-5D44-FB76-337E-EE48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxAssimpModelLoader\libs\assimp\include\assimp">
+      <UniqueIdentifier>{E66BABFA-76A1-EB8D-40FF-B940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler">
+      <UniqueIdentifier>{A0C31C2E-6C01-8850-3B72-C818}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IModel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\Model.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.h">
+      <Filter>addons\ofxAssimpModelLoader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.h">
+      <Filter>addons\ofxAssimpModelLoader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h">
+      <Filter>addons\ofxAssimpModelLoader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.h">
+      <Filter>addons\ofxAssimpModelLoader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpUtils.h">
+      <Filter>addons\ofxAssimpModelLoader\src</Filter>
+    </ClInclude>
+=======
       <Filter>src\models</Filter>
     </ClCompile>
     <ClCompile Include="src\Models\ModelJalle.cpp">
@@ -45,6 +125,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+>>>>>>> origin/master
     <ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\ai_assert.h">
       <Filter>externals</Filter>
     </ClInclude>
@@ -184,6 +265,15 @@
       <Filter>src\models</Filter>
     </ClInclude>
     <ClInclude Include="src\Models\ModelDmitriy.h">
+<<<<<<< HEAD
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelNicole.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Models\ModelJalle.h">
+      <Filter>src\Models</Filter>
+=======
       <Filter>src\models</Filter>
     </ClInclude>
     <ClInclude Include="src\Models\ModelJalle.h">
@@ -197,6 +287,7 @@
     </ClInclude>
     <ClInclude Include="src\Models\ModelSandie.h">
       <Filter>src\models</Filter>
+>>>>>>> origin/master
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
